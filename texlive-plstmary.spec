@@ -6,7 +6,7 @@
 # catalog-version 0.5c
 Name:		texlive-plstmary
 Version:	0.5c
-Release:	8
+Release:	9
 Summary:	St. Mary's Road font support for plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plstmary
