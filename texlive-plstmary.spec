@@ -1,18 +1,12 @@
-# revision 31088
-# category Package
-# catalog-ctan /macros/plain/contrib/plstmary
-# catalog-date 2013-07-03 23:04:38 +0200
-# catalog-license pd
-# catalog-version 0.5c
 Name:		texlive-plstmary
-Version:	0.5c
-Release:	10
+Version:	31088
+Release:	1
 Summary:	St. Mary's Road font support for plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plstmary
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ The package provides commands to produce all the symbols of the
 St Mary's Road fonts, in a Plain TeX environment.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +33,7 @@ St Mary's Road fonts, in a Plain TeX environment.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
