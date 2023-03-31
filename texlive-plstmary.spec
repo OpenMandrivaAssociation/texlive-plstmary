@@ -1,6 +1,6 @@
 Name:		texlive-plstmary
 Version:	31088
-Release:	1
+Release:	2
 Summary:	St. Mary's Road font support for plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plstmary
