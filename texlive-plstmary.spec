@@ -3,7 +3,7 @@ Version:	31088
 Release:	2
 Summary:	St. Mary's Road font support for plain TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/plstmary
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/plstmary
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/plstmary.doc.r%{version}.tar.xz
